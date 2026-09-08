@@ -1,4 +1,3 @@
-# fabric_sales_project
 # Microsoft Fabric Sales Analytics Project
 
 ## About the Project
