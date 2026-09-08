@@ -1,0 +1,33 @@
+                 SOURCE DATA
+                     │
+                     ▼
+              DATAFLOW GEN2
+                     │
+                     ▼
+        ┌─────────────────────┐
+        │   BRONZE LAYER      │
+        │   Raw data          │
+        │   No/minimal        │
+        │   transformation    │
+        └──────────┬──────────┘
+                   │
+                   ▼
+        ┌─────────────────────┐
+        │   SILVER LAYER      │
+        │   Cleaned data      │
+        │   Data quality      │
+        │   Standardization   │
+        └──────────┬──────────┘
+                   │
+                   ▼
+        ┌─────────────────────┐
+        │    GOLD LAYER       │
+        │   Business-ready    │
+        │   Fact + Dimensions │
+        └──────────┬──────────┘
+                   │
+                   ▼
+             SEMANTIC MODEL
+                   │
+                   ▼
+               POWER BI
